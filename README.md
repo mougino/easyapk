@@ -3,6 +3,7 @@ easyapk
 
 easyapk is a cross-platform command-line executable, written in FreeBasic, that allows to alter and re-compile an Android app (*.apk).
 easyapk takes an XML as input that describes the source APK, the modifications to be done, the target, and it produces an APK as output.
+easyapk source code is released under a GNU GPL v3 licence as per the attached file "gpl.txt". The licence can be found at https://www.gnu.org/licenses/gpl.txt
 
 easyapk needs the following open source companion tools to be in the same folder where it is installed:
 
