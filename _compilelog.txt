@@ -1,0 +1,7 @@
+FreeBASIC Compiler - Version 0.90.1 (07-17-2013) for win32
+Copyright (C) 2004-2013 The FreeBASIC development team.
+standalone
+compiling:    Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.bas -o Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.asm (main module)
+assembling:   Z:\FreeBASIC-0.90.1-win32\bin\win32\as.exe --32 --strip-local-absolute "Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.asm" -o "Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.o"
+compiling rc:               Z:\FreeBASIC-0.90.1-win32\bin\win32\GoRC.exe /ni /nw /o /fo "easyapk.obj" "easyapk.rc"
+linking:      Z:\FreeBASIC-0.90.1-win32\bin\win32\ld.exe -o "Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.exe" -subsystem console "Z:\FreeBASIC-0.90.1-win32\lib\win32\fbextra.x" --stack 1048576,1048576 -s -L "Z:\FreeBASIC-0.90.1-win32\lib\win32" -L "." "Z:\FreeBASIC-0.90.1-win32\lib\win32\crt2.o" "Z:\FreeBASIC-0.90.1-win32\lib\win32\crtbegin.o" "Z:\FreeBASIC-0.90.1-win32\lib\win32\fbrt0.o" "easyapk.obj" "Z:\FreeBASIC-0.90.1-win32\easyapk\easyapk.o" "-(" -lfb -lgcc -lmsvcrt -lkernel32 -lmingw32 -lmingwex -lmoldname -lsupc++ -lgcc_eh "-)" "Z:\FreeBASIC-0.90.1-win32\lib\win32\crtend.o" 
